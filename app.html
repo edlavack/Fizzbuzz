@@ -54,9 +54,22 @@
     <main>
         <div class="content">
             <div class="container mt-5 p-4">
-                <h1>APP UI GOES HERE</h1>
-                <input type="text" id="message" placeholder="Enter a Message"/>
+                <h1>Fizz Buzz</h1>
+                <div class="row">
+                <div class="col col-md-6">
+                    <input id="startValue" class="form-control" placeholder=" enter a number">
+                </div>
+                <div class="col">
+                    <input id="endValue" class="form-control" placeholder="enter a number">
+                </div>
+                <div class="row row-cols-1 row-cols-5" id="results">
+                    <div class="col" id="fizz"></div>
+                    <div class="col" id="buzz"></div>
+                    <div class="col" id="fizzbuzz"></div>
+
+                </div>
                 <button id="btnSubmit" class="btn btn-primary">Display Message</button>
+            </div>
             </div>
         </div>
     </main>
@@ -71,7 +84,7 @@
 
     <script src="/js/site.js"></script>
     <script>
-        document.getElementById("btnSubmit").addEventListener("click",getValue2);
+        document.getElementById("btnSubmit").addEventListener("click",getValues);
     </script>
  </body>
 

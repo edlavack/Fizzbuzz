@@ -97,3 +97,24 @@ body{
 .social>a:hover{
     color: var(--edl-secondary-color);
 }
+
+.fizz{
+    font-size: 3rem;
+    color: red;
+
+}
+.buzz{
+    font-size: 3rem;
+    color:#050557;
+
+}
+
+.fizzbuzz{
+    font-size: 3rem;
+    color:coral
+}
+
+.currentNumber{
+    font-size: 2rem;
+    color:darkgreen;
+}
